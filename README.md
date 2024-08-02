@@ -66,6 +66,8 @@ Below is a high-level example of how the system could be used:
 
 ```python
 from datetime import datetime, timedelta
+from services import Customer, CheckingAccount, SavingsAccount, BusinessAccount, Bank
+
 
 # Create customers
 customer1 = Customer(name="Alice", customer_id="C001")
